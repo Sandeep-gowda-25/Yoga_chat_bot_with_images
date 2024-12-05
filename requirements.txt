@@ -1,0 +1,9 @@
+langchain-community
+rapidocr-onnxruntime
+together
+huggingface-hub
+pypdf
+sentence-transformers
+supabase
+PyMuPDF
+langchain-pinecone
