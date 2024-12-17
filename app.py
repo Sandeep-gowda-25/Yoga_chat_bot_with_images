@@ -28,9 +28,10 @@ class Application:
             print("Image below might give you more details/posture for your query")
             for source in sources:
                 if "image" in source.metadata.keys():
-                    display(Image(filename=f"images/{source.metadata["image"]}"))
-                    break
-        self.conv_history.append({"answer":result})
+                    # display(Image(filename=f"images/{source.metadata["image"]}"))
+                    self.conv_history.append({"answer":result})
+                    return {"answer":result,"image":f"images/{source.metadata["image"]}"}
+        return {"answer":result}
 
     def get_updated_question(self):
 
