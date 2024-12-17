@@ -19,11 +19,11 @@
 
 #### Yoga mutlimodal chatbot.ipynb is the controlling unit of application flow
 
-## Sample Response:
-On asking first question - Response along with image
-![image](https://github.com/user-attachments/assets/6026f69e-6d69-42cf-8147-9d8374e937a6)
+#### Interactive UI interface using streamlit (streamlit run ui_app.py)
 
-On asking follow-up questions - Response with context
-![image](https://github.com/user-attachments/assets/7129baf1-3afc-4835-9c33-e346a0b4a214)
+## Sample Response:
+Response along with image and context based answering for follow-up
+![image](https://github.com/user-attachments/assets/c9d2d6dd-79ae-4a8c-a000-3ed09255eebc)
+
 
 
